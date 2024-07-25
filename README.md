@@ -44,7 +44,7 @@ The neural network is composed of three layers:
 5. **Backward Propagation (Training)**
    * The goal of training is to minimize the loss as much as possible, which is achieved through calculating the gradient and updating the weights.
    * **Gradient**: The goal of training is to minimize the loss as much as possible, which is achieved through calculating the gradient and updating the weights.
-    * **Output Layer**: Calculate the gradient of the loss with respect to the output layer's weights.
-    * **Hidden Layers**:  Propagate the gradient backward through the network, layer by layer, computing the gradient of the loss with respect to each layer's weights.
+       * **Output Layer**: Calculate the gradient of the loss with respect to the output    layer's weights.
+       * **Hidden Layers**:  Propagate the gradient backward through the network, layer by layer, computing the gradient of the loss with respect to each layer's weights.
    * **Weight Update**: Update the weights using an optimization algorithm, gradient descent, where weights are adjusted in the opposite direction of the gradient of the loss function with 
 
